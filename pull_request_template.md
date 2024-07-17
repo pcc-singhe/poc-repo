@@ -37,9 +37,13 @@ If you made UI changes, what are the before an afters?
 - [ ] Any N+1 queries?
 - [ ] Are you inserting date time, if so are you inserting in UTC?
 - [ ] If you have used currency, have you verified the unit of currency is correct?
+- [ ] Are you certain that you are not breaking the data write and read contract with your dependent module?
+
+### Updating DDL? 
+Are you making any non backward compatible changes resulting in break of contract with your module. Have you ran the pact tests locally?
 
 ### Creating or updating a new API ? 
-- [ ] Are you changing the signature of any Public, Private, Internal API?
+- [ ] Are you changing the signature of any Public, Private, Internal API in non backward compatible way.
 - [ ] Have you followed the API standards?
 
 ### Any UI Changes?
