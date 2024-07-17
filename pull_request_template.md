@@ -40,7 +40,7 @@ If you made UI changes, what are the before an afters?
 - [ ] Are you certain that you are not breaking the data write and read contract with your dependent module?
 
 ### Updating DDL? 
-Are you making any non backward compatible changes resulting in break of contract with your module. Have you ran the pact tests locally?
+- [ ] Are you making any non backward compatible changes resulting in break of contract with your module. Have you ran the pact tests locally?
 
 ### Creating or updating a new API ? 
 - [ ] Are you changing the signature of any Public, Private, Internal API in non backward compatible way.
